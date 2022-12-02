@@ -1,1 +1,1 @@
-from quicklookts import quicklook
+from quicklookts06 import quicklook

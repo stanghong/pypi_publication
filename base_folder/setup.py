@@ -1,23 +1,23 @@
 from setuptools import setup, find_packages
-from distutils.core import setup
+# from distutils.core import setup
 import codecs
 import os
 
 
-VERSION = '0.0.1'
-DESCRIPTION = 'quicklook time series data'
+VERSION = '0.0.6'
+DESCRIPTION = 'quicklookts06'
 
 # Setting up
 setup(
-    name="quicklooktimeseries",
+    name="quicklookts06",
     version=VERSION,
     author="Hong Tang",
     author_email="<stanghong@gmail.com>",
     description=DESCRIPTION,
-    url = 'https://github.com/stanghong/PyPi_Publication', 
+    url = 'https://github.com/stanghong/pypi_publication', 
 #    packages=find_packages(),
     install_requires=['numpy','pandas', 'matplotlib' ],
-    download_url = 'https://github.com/stanghong/PyPi_Publication/archive/refs/tags/v0.0.1.tar.gz',
+    download_url = 'https://github.com/stanghong/pypi_publication/archive/refs/tags/v0.0.6.tar.gz',
     
     keywords=['python', 'timeseries','plot'],
 
