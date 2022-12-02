@@ -5,7 +5,7 @@ import os
 
 
 VERSION = '0.0.6'
-DESCRIPTION = 'quicklookts07'
+DESCRIPTION = 'quicklookts06'
 
 # Setting up
 setup(
@@ -17,7 +17,7 @@ setup(
     url = 'https://github.com/stanghong/pypi_publication', 
 #    packages=find_packages(),
     install_requires=['numpy','pandas', 'matplotlib' ],
-    download_url = 'https://github.com/stanghong/pypi_publication/archive/refs/tags/v0.07.tar.gz',
+    download_url = 'https://github.com/stanghong/pypi_publication/archive/refs/tags/v0.0.6.tar.gz',
     
     keywords=['python', 'timeseries','plot'],
 
