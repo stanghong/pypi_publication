@@ -1,0 +1,5 @@
+License Copyright: Unknown.
+License License: Unknown.
+License Contact: Unknown.
+
+SPDX short identifier: MIT
