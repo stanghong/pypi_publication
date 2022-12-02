@@ -4,20 +4,20 @@ import codecs
 import os
 
 
-VERSION = '0.0.6'
-DESCRIPTION = 'quicklookts06'
+VERSION = '0.0.8'
+DESCRIPTION = 'quicklookts08'
 
 # Setting up
 setup(
-    name="quicklookts06",
+    name="quicklookts07",
     version=VERSION,
     author="Hong Tang",
     author_email="<stanghong@gmail.com>",
     description=DESCRIPTION,
     url = 'https://github.com/stanghong/pypi_publication', 
-#    packages=find_packages(),
+   packages=find_packages('quicklookts07'),
     install_requires=['numpy','pandas', 'matplotlib' ],
-    download_url = 'https://github.com/stanghong/pypi_publication/archive/refs/tags/v0.0.6.tar.gz',
+    download_url = 'https://github.com/stanghong/pypi_publication/archive/refs/tags/v0.07.tar.gz',
     
     keywords=['python', 'timeseries','plot'],
 
