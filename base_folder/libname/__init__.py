@@ -1,0 +1,1 @@
+from quicklookts import quicklook
