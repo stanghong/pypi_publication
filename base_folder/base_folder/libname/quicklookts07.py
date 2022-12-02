@@ -3,7 +3,7 @@ def quicklook(plot_df, curve1='lw_temp_3', curve2='Tbelow', *args, **kwargs):
     function to plot timeseries plot for QC purpose
     can select time window to see
     tbelow will be computed from ref_lwuw
-    version 0.0.6
+    version 0.0.7
     example: 
         timetoseebegin='2022-06-09' 
         timetoseeend='2022-11-14'
